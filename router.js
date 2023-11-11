@@ -183,7 +183,6 @@ router.get("/combineddata",async (req, res) => {
   const { search, page = 1, perPage = 10, month } = req.query;
     try {
         const [transactions,statistics,piechart,barchart] = await Promise.all([
-            // axios.get(`https://roxiler-server.onrender.com/transactions?month=${month}&search=${search}`),
             axios.get(`https://roxiler-backend-service.onrender.com/transactions?month=${month}&search=${search}`),
             axios.get(`https://roxiler-backend-service.onrender.com/statistics?month=${month}`),
             axios.get(`https://roxiler-backend-service.onrender.com/piechart?month=${month}`),

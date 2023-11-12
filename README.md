@@ -1,8 +1,8 @@
 # roxiler-backend
-forntend deployed url:[Aditya]
+forntend deployed url:[https://transaction-dashboard-rox.netlify.app/]
 
-frontend github link :[Aditya]
+frontend github link :[https://github.com/Adi91108/Frontend-rox]
 
-backend deployed url : [https://roxiler-backend-service.onrender.com]
+backend deployed url : [https://roxiler-server.onrender.com]
 
-backend deployed url : [https://roxiler-backend-service.onrender.com/combineddata]
+backend deployed url : [https://roxiler-server.onrender.com/combineddata]
